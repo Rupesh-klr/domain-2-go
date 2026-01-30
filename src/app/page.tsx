@@ -1,4 +1,5 @@
 import React from "react";
+import Script from "next/script";
 import Navbar from "./components/common/Navbar";
 import Hero from "./components/common/Hero";
 import Services from "./components/common/Service";
@@ -7,6 +8,13 @@ import StaticTable from "./components/common/StaticTable";
 import WhyChoose from "./components/common/WhyChoose";
 import CaseStudies from "./components/common/CaseStudies";
 import Testimonial from "./components/common/Testimonials";
+import {
+  dangerouslySetInnerHTMLForPageIndex,
+  dangerouslySetOuterInHeadlazyHTMLForPageIndex,
+  indexPageMetadata,
+} from "../lib/structuredData";
+
+export const metadata = indexPageMetadata;
 interface Tool {
   id: number;
   name: string;
@@ -31,63 +39,86 @@ export default function Home() {
   ];
 
   return (
-    <main className="min-h-screen bg-blue-950">
-      <Navbar />
-      <Hero />
+    <>
+    {/* Render any head-associated lazy JSON-LD objects (centralized list) */}
+      {dangerouslySetOuterInHeadlazyHTMLForPageIndex.map((obj, i) => (
+        <Script
+          key={`ld-head-${i}`}
+          id={`ld-head-${i}`}
+          type="application/ld+json"
+          strategy="lazyOnload"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(obj) }}
+        />
+      ))}
 
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-blue-600 mb-4">
-              What We Do: Our Role in Form Submission
-            </h2>
-            <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
-          </div>
+      {/* Render other JSON-LD objects (body-level) */}
+      {dangerouslySetInnerHTMLForPageIndex.map((obj, i) => (
+        <Script
+          key={`ld-body-${i}`}
+          id={`ld-body-${i}`}
+          type="application/ld+json"
+          strategy="lazyOnload"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(obj) }}
+        />
+      ))}
+      <main className="min-h-screen bg-blue-950">
+        <Navbar />
+        <Hero />
 
-          <div className="max-w-5xl mx-auto text-center">
-            <p className="text-lg text-gray-700 leading-relaxed">
-              <span className="font-bold text-gray-900">Role:</span> We serve as
-              your dedicated form processing partner, managing the entire
-              lifecycle of data submission from capture to storage.{" "}
-              <span className="font-bold text-gray-900">Responsibility:</span>{" "}
-              Ensuring accurate data entry, validation, security compliance, and
-              seamless integration with your existing systems.{" "}
-              <span className="font-bold text-gray-900">Skills:</span> Advanced
-              data validation, API integration, database management, automated
-              workflow design, security compliance, and quality assurance
-              testing.
-            </p>
+        <section className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-4xl md:text-5xl font-bold text-blue-600 mb-4">
+                What We Do: Our Role in Form Submission
+              </h2>
+              <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+
+            <div className="max-w-5xl mx-auto text-center">
+              <p className="text-lg text-gray-700 leading-relaxed">
+                <span className="font-bold text-gray-900">Role:</span> We serve as
+                your dedicated form processing partner, managing the entire
+                lifecycle of data submission from capture to storage.{" "}
+                <span className="font-bold text-gray-900">Responsibility:</span>{" "}
+                Ensuring accurate data entry, validation, security compliance, and
+                seamless integration with your existing systems.{" "}
+                <span className="font-bold text-gray-900">Skills:</span> Advanced
+                data validation, API integration, database management, automated
+                workflow design, security compliance, and quality assurance
+                testing.
+              </p>
+            </div>
           </div>
-        </div>
-      </section>
-      <Services />
-      <section id="tools" className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Header */}
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-blue-600 mb-4">
-              Tools &amp; Technologies We Master
-            </h2>
-            <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
+        </section>
+        <Services />
+        <section id="tools" className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            {/* Header */}
+            <div className="text-center mb-12">
+              <h2 className="text-4xl md:text-5xl font-bold text-blue-600 mb-4">
+                Tools &amp; Technologies We Master
+              </h2>
+              <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            <div className="flex flex-wrap justify-center gap-4">
+              {tools.map((tool) => (
+                <div
+                  key={tool.id}
+                  className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-full font-semibold text-sm md:text-base hover:from-blue-700 hover:to-purple-700 transition duration-300 transform hover:scale-105 shadow-lg"
+                >
+                  {tool.name}
+                </div>
+              ))}
+            </div>
           </div>
-          <div className="flex flex-wrap justify-center gap-4">
-            {tools.map((tool) => (
-              <div
-                key={tool.id}
-                className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-full font-semibold text-sm md:text-base hover:from-blue-700 hover:to-purple-700 transition duration-300 transform hover:scale-105 shadow-lg"
-              >
-                {tool.name}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-      <Industry />
-      <StaticTable />
-      <WhyChoose />
-      <CaseStudies />
-      <Testimonial />
-    </main>
+        </section>
+        <Industry />
+        <StaticTable />
+        <WhyChoose />
+        <CaseStudies />
+        <Testimonial />
+      </main>
+    </>
   );
 }
 
