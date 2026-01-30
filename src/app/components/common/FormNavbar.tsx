@@ -32,7 +32,7 @@ const FormNavbar: React.FC = () => {
     { href: '#contact', label: 'Contact' },
   ];
   const services: ServiceItem[] = [
-    { href: "/formSubmission", title: "Form Submission", },
+    { href: "/forum/how-do-contact-quickbooks-customer-support-in-the-usa", title: "Form Submission", },
     { href: "/", title : "home page",},
     { href: "#services", title : "Our services",},
 
