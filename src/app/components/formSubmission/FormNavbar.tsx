@@ -120,7 +120,7 @@ const Navbar: React.FC = () => {
 
             {/* Contact button */}
             <Link
-              href="/formSubmission"
+              href={`${services[0].href}`}
               className="bg-green-600 text-white px-6 py-2 rounded-full hover:bg-green-700 transition"
             >
               Contact Us
@@ -198,7 +198,7 @@ const Navbar: React.FC = () => {
 
             {/* Full width CTA (mobile) */}
             <Link
-              href="/formSubmission"
+              href={`${services[0].href}`}
               className="mt-3 block text-center bg-green-600 text-white px-6 py-3 rounded-full hover:bg-green-700 transition"
               onClick={closeAllMenus}
             >
