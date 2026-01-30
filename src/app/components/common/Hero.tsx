@@ -2,7 +2,7 @@
 import React from 'react';
 import { Star, Calendar, RefreshCw } from 'lucide-react';
 
-const FormHero: React.FC = () => {
+const Hero: React.FC = () => {
   return (
     <section className="bg-gradient-to-br from-blue-500 via-purple-600 to-purple-700 text-white py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -56,4 +56,4 @@ const FormHero: React.FC = () => {
   );
 };
 
-export default FormHero;
+export default Hero;

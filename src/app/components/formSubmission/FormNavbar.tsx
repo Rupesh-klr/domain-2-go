@@ -130,7 +130,7 @@ const Navbar: React.FC = () => {
           {/* Mobile buttons */}
           <div className="md:hidden flex items-center gap-2">
             <Link
-              href="/formSubmission"
+              href={`${services[0].href}`}
               className="bg-green-600 text-white px-4 py-2 rounded-full hover:bg-green-700 transition text-sm"
               onClick={closeAllMenus}
             >
@@ -159,8 +159,7 @@ const Navbar: React.FC = () => {
             >
               <span>Services</span>
               <ChevronDown
-                className={`w-5 h-5 transition-transform ${isMobileServicesOpen ? "rotate-180" : ""
-                  }`}
+                className={`w-5 h-5 transition-transform ${isMobileServicesOpen ? "rotate-180" : ""}`}
               />
             </button>
 
@@ -187,8 +186,8 @@ const Navbar: React.FC = () => {
                   key={link.label}
                   href={link.href}
                   className={`block px-2 py-3 rounded-lg transition hover:bg-gray-50 ${link.isWarning
-                      ? "text-yellow-700 font-medium"
-                      : "text-gray-700 hover:text-green-600"
+                    ? "text-yellow-700 font-medium"
+                    : "text-gray-700 hover:text-green-600"
                     }`}
                   onClick={closeAllMenus}
                 >

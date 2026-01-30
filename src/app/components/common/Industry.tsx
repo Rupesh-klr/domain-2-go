@@ -6,7 +6,7 @@ interface Industry {
   name: string;
 }
 
-const FormIndustries: React.FC = () => {
+const Industries: React.FC = () => {
   const industriesColumn1: Industry[] = [
     { id: 1, name: 'Healthcare & Medical Services' },
     { id: 2, name: 'Financial Services & Banking' },
@@ -72,4 +72,4 @@ const FormIndustries: React.FC = () => {
   );
 };
 
-export default FormIndustries;
+export default Industries;

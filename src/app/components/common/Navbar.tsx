@@ -1,0 +1,215 @@
+"use client";
+import React, { useEffect, useRef, useState } from 'react';
+import Link from 'next/link';
+import { Check, ChevronDown, Headphones, Menu, X } from 'lucide-react';
+
+type ServiceItem = {
+  href: string;
+  title: string;
+  desc?: string;
+};
+interface NavLink {
+  href: string;
+  label: string;
+  isWarning?: boolean;
+}
+const Navbar: React.FC = () => {
+
+  const [isServicesOpen, setIsServicesOpen] = useState(false);
+  const [isMobileOpen, setIsMobileOpen] = useState(false);
+  const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false);
+
+  const servicesRef = useRef<HTMLDivElement>(null);
+
+  const navLinks: NavLink[] = [
+    { href: '#home', label: 'Home' },
+    { href: '#services', label: 'Services' },
+    { href: '#tools', label: 'Tools' },
+    { href: '#industries', label: 'Industries' },
+    { href: '#case-studies', label: 'Case Studies' },
+    { href: '#testimonials', label: 'Testimonials' },
+    { href: '#faq', label: 'FAQ' },
+    { href: '#contact', label: 'Contact' },
+  ];
+  const services: ServiceItem[] = [
+    { href: "/forum/how-do-contact-quickbooks-customer-support-in-the-usa", title: "Form Submission", },
+    { href: "/", title: "home page", },
+    { href: "#services", title: "Our services", },
+
+  ];
+
+
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (servicesRef.current && !servicesRef.current.contains(e.target as Node)) {
+        setIsServicesOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
+  // When mobile menu closes, close mobile services too
+  useEffect(() => {
+    if (!isMobileOpen) setIsMobileServicesOpen(false);
+  }, [isMobileOpen]);
+
+  const closeAllMenus = () => {
+    setIsServicesOpen(false);
+    setIsMobileOpen(false);
+    setIsMobileServicesOpen(false);
+  };
+
+  return (
+    <>
+      <div className="bg-yellow-50 border-b border-yellow-200 py-2 px-4 text-center text-sm">
+        <div className="flex items-center justify-center text-yellow-800">
+          <span className="mr-2">⚠️</span>
+          <span className="font-medium">
+            DISCLAIMER: Results may vary based on project complexity. All case studies represent actual client outcomes. Services subject to availability and terms of service.
+          </span>
+        </div>
+      </div>
+      <nav className="bg-white shadow-md">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Desktop nav */}
+          <div className="hidden md:flex items-center space-x-8">
+            {/* Services Dropdown (desktop) */}
+            <div ref={servicesRef} className="relative">
+              <button
+                type="button"
+                onClick={() => setIsServicesOpen((v) => !v)}
+                className="flex items-center gap-1 text-gray-700 hover:text-green-600 transition"
+                aria-expanded={isServicesOpen}
+                aria-haspopup="true"
+              >
+                Services
+                <ChevronDown
+                  className={`w-4 h-4 transition-transform ${isServicesOpen ? "rotate-180" : ""}`}
+                />
+              </button>
+
+              {isServicesOpen && (
+                <div className="absolute top-full left-0 mt-2 w-72 bg-white rounded-xl shadow-xl border border-gray-100 py-2">
+                  {services.map((s) => (
+                    <Link
+                      key={s.title}
+                      href={s.href}
+                      className="block px-4 py-3 hover:bg-green-50 transition"
+                      onClick={() => setIsServicesOpen(false)}
+                    >
+                      <div className="font-semibold text-gray-900">{s.title}</div>
+                      {s.desc ? <div className="text-sm text-gray-600">{s.desc}</div> : null}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            {/* Other links */}
+            {navLinks.map((link) => (
+              <Link
+                key={link.label}
+                href={link.href}
+                className={`transition ${link.isWarning
+                  ? "text-yellow-700 hover:text-yellow-800 font-medium"
+                  : "text-gray-700 hover:text-green-600"
+                  }`}
+              >
+                {link.label}
+              </Link>
+            ))}
+            <Link
+              href={`${services[0].href}`}
+              className="bg-green-600 text-white px-6 py-2 rounded-full hover:bg-green-700 transition"
+            >
+              Contact Us
+            </Link>
+
+            {/* Contact button 
+            <Link
+              href={`${services[0].href}`}
+              className="bg-green-600 text-white px-6 py-2 rounded-full hover:bg-green-700 transition"
+            >
+              Contact Us
+            </Link>*/}
+
+           
+          </div>
+          
+        </div>
+         {/* Mobile buttons */}
+            <div className="md:hidden flex items-center gap-2">
+              <button
+                type="button"
+                onClick={() => setIsMobileOpen((v) => !v)}
+                className="p-2 rounded-lg hover:bg-gray-100 transition"
+                aria-label="Toggle menu"
+              >
+                {isMobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6 text-black" />}
+              </button>
+            </div>
+          {isMobileOpen && (
+            <div className="md:hidden border-t border-gray-100 pb-4 pt-3">
+              {/* Services accordion (mobile) */}
+              <button
+                type="button"
+                onClick={() => setIsMobileServicesOpen((v) => !v)}
+                className="w-full flex items-center justify-between px-2 py-3 text-gray-800 font-medium hover:bg-gray-50 rounded-lg transition"
+              >
+                <span>Services</span>
+                <ChevronDown
+                  className={`w-5 h-5 transition-transform ${isMobileServicesOpen ? "rotate-180" : ""
+                    }`}
+                />
+              </button>
+
+              {isMobileServicesOpen && (
+                <div className="mt-1 space-y-1">
+                  {services.map((s) => (
+                    <Link
+                      key={s.title}
+                      href={s.href}
+                      className="block px-4 py-3 rounded-lg hover:bg-green-50 transition"
+                      onClick={closeAllMenus}
+                    >
+                      <div className="font-semibold text-gray-900">{s.title}</div>
+                      {s.desc ? <div className="text-sm text-gray-600">{s.desc}</div> : null}
+                    </Link>
+                  ))}
+                </div>
+              )}
+
+              {/* Other links (mobile) */}
+              <div className="mt-2 space-y-1">
+                {navLinks.map((link) => (
+                  <Link
+                    key={link.label}
+                    href={link.href}
+                    className={`block px-2 py-3 rounded-lg transition hover:bg-gray-50 ${link.isWarning
+                      ? "text-yellow-700 font-medium"
+                      : "text-gray-700 hover:text-green-600"
+                      }`}
+                    onClick={closeAllMenus}
+                  >
+                    {link.label}
+                  </Link>
+                ))}
+              </div>
+
+              {/* Full width CTA (mobile) */}
+              <Link
+                href="/formSubmission"
+                className="mt-3 block text-center bg-green-600 text-white px-6 py-3 rounded-full hover:bg-green-700 transition"
+                onClick={closeAllMenus}
+              >
+                Contact Us
+              </Link>
+            </div>
+          )}
+      </nav>
+    </>
+  );
+};
+
+export default Navbar;

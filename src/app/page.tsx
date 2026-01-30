@@ -1,11 +1,11 @@
 import React from "react";
-import FormNavbar from "./components/common/FormNavbar";
-import FormHero from "./components/common/FormHero";
+import Navbar from "./components/common/Navbar";
+import Hero from "./components/common/Hero";
 import Services from "./components/common/Service";
-import Industry from "./components/common/FormIndustry";
+import Industry from "./components/common/Industry";
 import StaticTable from "./components/common/StaticTable";
-import FormWhyChoose from "./components/common/WhyChoose";
-import FormCaseStudies from "./components/common/CaseStudies";
+import WhyChoose from "./components/common/WhyChoose";
+import CaseStudies from "./components/common/CaseStudies";
 import Testimonial from "./components/common/Testimonials";
 interface Tool {
   id: number;
@@ -32,8 +32,8 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-blue-950">
-      <FormNavbar />
-      <FormHero />
+      <Navbar />
+      <Hero />
 
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -84,8 +84,8 @@ export default function Home() {
       </section>
       <Industry />
       <StaticTable />
-      <FormWhyChoose />
-      <FormCaseStudies />
+      <WhyChoose />
+      <CaseStudies />
       <Testimonial />
     </main>
   );

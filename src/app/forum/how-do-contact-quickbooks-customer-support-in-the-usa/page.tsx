@@ -7,7 +7,7 @@ import IndustriesWeServe from "../../components/formSubmission/Industries";
 import ITSupport from "../../components/formSubmission/ItSupport"
 import WhyChooseUs from "../../components/formSubmission/WhyChooseUs";
 import DisclaimerBanner from "../../components/formSubmission/DisclaimerBanner";
-import Navbar from "../../components/formSubmission/Navbar";
+import Navbar from "../../components/formSubmission/FormNavbar";
 export default function Home() {
   return (
     <>
