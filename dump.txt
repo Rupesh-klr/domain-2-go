@@ -1,0 +1,168 @@
+<html lang="en">
+    <head>
+        <meta charSet="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="preload" href="/_next/static/media/33a864272e2b3e97-s.p.woff2" as="font" crossorigin="" type="font/woff2"/>
+        <link rel="preload" href="/_next/static/media/369e95b172d7d0cb-s.p.woff2" as="font" crossorigin="" type="font/woff2"/>
+        <link rel="preload" href="/_next/static/media/47cbc4e2adbc5db9-s.p.woff2" as="font" crossorigin="" type="font/woff2"/>
+        <link rel="preload" href="/_next/static/media/70d2fd2b9078a5a3-s.p.woff2" as="font" crossorigin="" type="font/woff2"/>
+        <link rel="preload" href="/_next/static/media/a88c13d5f58b71d4-s.p.woff2" as="font" crossorigin="" type="font/woff2"/>
+        <link rel="preload" href="/_next/static/media/c99b890c5ded8d2e-s.p.woff2" as="font" crossorigin="" type="font/woff2"/>
+        <link rel="preload" href="/_next/static/media/da11ba60d7fc0696-s.p.woff2" as="font" crossorigin="" type="font/woff2"/>
+        <link rel="preload" href="/_next/static/media/e4af272ccee01ff0-s.p.woff2" as="font" crossorigin="" type="font/woff2"/>
+        <link rel="preload" href="/_next/static/media/e807dee2426166ad-s.p.woff2" as="font" crossorigin="" type="font/woff2"/>
+        <link rel="preload" href="/_next/static/media/eaead17c7dbfcd5d-s.p.woff2" as="font" crossorigin="" type="font/woff2"/>
+        <link rel="preload" href="/_next/static/media/fded1358013dc048-s.p.woff2" as="font" crossorigin="" type="font/woff2"/>
+        <link rel="preload" as="image" href="/images/yoga.png"/>
+        <link rel="stylesheet" href="/_next/static/css/c04ba446d5e51c47.css" data-precedence="next"/>
+        <link rel="stylesheet" href="/_next/static/css/6c6a8bc72b46b4e8.css" data-precedence="next"/>
+        <link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-5737172dda40f6d4.js"/>
+        <script src="/_next/static/chunks/4bd1b696-409494caf8c83275.js" async=""></script>
+        <script src="/_next/static/chunks/255-979703d073c5cf1c.js" async=""></script>
+        <script src="/_next/static/chunks/main-app-f810cc9959894cd9.js" async=""></script>
+        <script src="/_next/static/chunks/647-dd3ad0b3cd140470.js" async=""></script>
+        <script src="/_next/static/chunks/898-8eacb415ca3066eb.js" async=""></script>
+        <script src="/_next/static/chunks/240-c90e6fd8389bacb0.js" async=""></script>
+        <script src="/_next/static/chunks/app/layout-1e64cc5932004d18.js" async=""></script>
+        <script src="/_next/static/chunks/820-bbdd987fcd5a8584.js" async=""></script>
+        <script src="/_next/static/chunks/430-5e863bb1ea7615b9.js" async=""></script>
+        <script src="/_next/static/chunks/601-a3fa428b12c71c71.js" async=""></script>
+        <script src="/_next/static/chunks/704-ddb6eb371b99bd2b.js" async=""></script>
+        <script src="/_next/static/chunks/696-dab0b243012125f5.js" async=""></script>
+        <script src="/_next/static/chunks/193-5da30670cb74c48f.js" async=""></script>
+        <script src="/_next/static/chunks/app/page-ae62540dcf8e4933.js" async=""></script>
+        <meta name="next-size-adjust" content=""/>
+        <meta name="msvalidate.01" content="F499BC814A9FBCC54996A2253A206579"/>
+        <title>Abhishek Singh | Full Stack Developer – Modern Web Engineering &amp;Digital Products</title>
+        <meta name="description" content="I build high-quality, scalable digital products with a focus on performance, detail, clean engineering, and meaningful user experiences. From modern interfaces to production-ready backend systems, I deliver software that feels polished and built to last."/>
+        <meta name="keywords" content="Abhishek Singh,Abhishek Singh Developer,Abhishek Singh Portfolio,Abhishek Singh Software Engineer,Abhishek Singh Web Developer,Full Stack Developer India,Full Stack Developer Raipur,Software Developer Raipur,Software Engineer India,Web Developer Chhattisgarh,Hire Developer India,Remote Software Developer,Remote Web Developer,Global Web Developer,International Developer,Full Stack Developer,Frontend Developer,Backend Developer,Web Developer,Software Engineer,Digital Product Engineer,Application Developer,Product Engineer,Creative Developer,Web Architect,Professional Developer,Technical Specialist,React Developer,Next.js Developer,Node.js Developer,Express Developer,MongoDB Developer,MERN Developer,JavaScript Developer,TypeScript Developer,REST API Development,AWS Developer,Cloud Developer,SQL Developer,Database Architecture,Responsive UI Development,Web Animation,Three.js Developer,3D Web Developer,Web Application Development,SaaS Development,E-commerce Development,Portfolio Website Development,Corporate Website Development,Landing Page Development,Custom Software Development,Digital Product Development,Enterprise Web Solutions,Business Software Development,Professional Web Services,Web App Performance Optimization,Production-Ready Web Development,Mobile-Responsive Website Development,System Architecture,API Integration Services,High Performance Web Applications,Scalable Software,Clean Code Practices,User Experience Focus,Modern Web Engineering,Interactive User Experiences,Real World Web Projects,Client Ready Software,High Quality Engineering,Pixel Perfect UI,Robust Backend Systems,Modern Web Experiences,Future Ready Development,UI and UX Engineering,Software Portfolio,Developer Portfolio,Modern Developer Portfolio,Technical Portfolio Website,Professional Tech Profile,Showcase of Projects,Hire Web Developer,Hire Software Engineer,Hire Full Stack Developer,Hiring Programmers,Find Web Developer,Web Development Freelancer,SoraXion,SoraXion Studio,SoraXion Agency,Code Astera,AbhishekWorks,Abhishek Works Portfolio,Modern Web Technologies,Interactive Websites,High Conversion Landing Pages,Digital Product UI,Next Gen Web Experiences,Creative Web Solutions,Modern Tech Stack,High Traffic Web Solutions,Scalable Backend Infrastructure,Best Web Developer,Top Software Engineer,Web Development Services,Custom Website Development,Web Design and Development,Application Development Services,Creative Coding,Modern Web Design"/>
+        <link rel="canonical" href="https://abhishekworks.com"/>
+        <meta property="og:title" content="Abhishek Singh – Full Stack Developer | Modern Web Engineering &amp; Digital Products"/>
+        <meta property="og:description" content="I build production-grade digital experiences with an emphasis on performance, interaction, and long-term reliability. Whether product dashboards, corporate platforms, or high-end interfaces, I push for clean engineering and thoughtful execution."/>
+        <meta property="og:url" content="https://abhishekworks.com"/>
+        <meta property="og:image" content="https://abhishekworks.com/home.png"/>
+        <meta property="og:image:width" content="1200"/>
+        <meta property="og:image:height" content="630"/>
+        <meta property="og:image:alt" content="Abhishek Singh Portfolio"/>
+        <meta property="og:type" content="website"/>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:site" content="@Abhishek_Data_"/>
+        <meta name="twitter:title" content="Abhishek Singh | Full Stack Developer – Building Modern Web Experiences"/>
+        <meta name="twitter:description" content="Crafting modern, scalable digital products with a focus on performance, clean engineering, and immersive user experiences."/>
+        <meta name="twitter:image" content="https://abhishekworks.com/AbhishekX.png"/>
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="128x128"/>
+        <link rel="icon" href="/favicon.ico"/>
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Abhishek Singh",
+                "url": "https://abhishekworks.com",
+                "jobTitle": "Full Stack Developer",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "GOMUGOMU STUDIOS"
+                },
+                "sameAs": [
+                    "https://github.com/Abhishek2494",
+                    "https://x.com/Abhishek_Data_",
+                    "https://www.linkedin.com/in/abhishek-singh/"
+                ]
+            }</script>
+        <script src="/_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script>
+    </head>
+    <body class="__variable_60bf02 __variable_0bbd17 __variable_153596 __variable_1d1d43 __variable_ef0c4b __variable_c2ce35 __variable_0c2974 __variable_5d3d4e __variable_f98467 dark:bg-[#0f0017] overflow-x-hidden">
+        <div hidden="">
+        <!--$-->
+        <!--/$-->
+        </div>
+        <script>
+            ( (a, b, c, d, e, f, g, h) => {
+                let i = document.documentElement
+                  , j = ["light", "dark"];
+                function k(b) {
+                    var c;
+                    (Array.isArray(a) ? a : [a]).forEach(a => {
+                        let c = "class" === a
+                          , d = c && f ? e.map(a => f[a] || a) : e;
+                        c ? (i.classList.remove(...d),
+                        i.classList.add(b)) : i.setAttribute(a, b)
+                    }
+                    ),
+                    c = b,
+                    h && j.includes(c) && (i.style.colorScheme = c)
+                }
+                if (d)
+                    k(d);
+                else
+                    try {
+                        let a = localStorage.getItem(b) || c
+                          , d = g && "system" === a ? window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light" : a;
+                        k(d)
+                    } catch (a) {}
+            }
+            )("class", "theme", "dark", null, ["light", "dark"], null, true, true)
+        </script>
+        <div data-overlay-container="true">
+            <h1 class="sr-only">Abhishek Singh | Full Stack Developer | MERN, Next.js, Python, AWS</h1>
+            <main class="relative overflow-hidden">
+                <canvas style="position:absolute;top:0;left:0;z-index:52;opacity:1;pointer-events:none;mix-blend-mode:screen"></canvas>
+                <div class="relative flex flex-col z-[51] h-[100vh] items-center justify-center bg-purple-950 dark:bg-[#0f0014] text-slate-950 transition-bg">
+                    <div class="absolute inset-0 overflow-hidden">
+                        <div class="[--white-gradient:repeating-linear-gradient(100deg,rgba(255,255,255,0.08)_0%,rgba(255,255,255,0.08)_7%,var(--transparent)_10%,var(--transparent)_12%,rgba(255,255,255,0.08)_16%)] [--dark-gradient:repeating-linear-gradient(100deg,rgba(0,0,0,0.4)_0%,rgba(0,0,0,0.4)_7%,var(--transparent)_10%,var(--transparent)_12%,rgba(0,0,0,0.4)_16%)] [--aurora:repeating-linear-gradient(100deg,#4c1d95_10%,#7e22ce_15%,#6b21a8_20%,#581c87_25%,#4c1d95_30%)] [background-image:var(--dark-gradient),var(--aurora)] dark:[background-image:var(--dark-gradient),var(--aurora)] [background-size:300%,_200%] [background-position:50%_50%,50%_50%] filter blur-[10px] invert dark:invert-0 after:content-[&quot;&quot;] after:absolute after:inset-0 after:[background-image:var(--dark-gradient),var(--aurora)] after:dark:[background-image:var(--dark-gradient),var(--aurora)] after:[background-size:200%,_100%] after:animate-aurora after:[background-attachment:fixed] after:mix-blend-difference pointer-events-none absolute -inset-[10px] opacity-70 will-change-transform [mask-image:radial-gradient(ellipse_at_100%_0%,black_20%,var(--transparent)_70%)]"></div>
+                    </div>
+                    <div class="relative min-h-screen">
+                        <div class="min-h-screen flex flex-col max-h-full w-full items-center justify-center h-full top-[40%] mt-[-30px]">
+                            <h2 class="filter font-inter font-normal text-[36px] leading-42 text-center tracking--0.01 bg-gradient-to-b from-white to-white/60 transparent-text bg-clip-text text-[#d2dae4]" style="opacity:0;transform:translateY(20px)">
+                                There &#x27;s a new <span class="font-yellowTail">Web Dev</span>
+                                in town.
+                            </h2>
+                            <h2 class="filter font-inter font-normal text-[36px] leading-42 text-center tracking--0.01 bg-gradient-to-b from-white to-white/60 transparent-text bg-clip-text text-[#d2dae4]" style="opacity:0;transform:translateY(20px)">Meet Abhishek!</h2>
+                        </div>
+                        <div class="absolute bottom-8 h-auto w-full" style="opacity:0;transform:translateY(100px)">
+                            <div class="flex min-h-full max-h-full flex-col justify-center items-center w-full">
+                                <img class="w-32" src="/images/yoga.png" style="transform:translateY(100vh)"/>
+                                <p id="heroBeginp" class="font-inter" style="opacity:0">©Abhishek Singh , 2024.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <!--$-->
+            <!--/$-->
+        </div>
+        <script src="/_next/static/chunks/webpack-5737172dda40f6d4.js" id="_R_" async=""></script>
+        <script>
+            (self.__next_f = self.__next_f || []).push([0])
+        </script>
+        <script>
+            self.__next_f.push([1, "1:\"$Sreact.fragment\"\n2:I[82942,[\"647\",\"static/chunks/647-dd3ad0b3cd140470.js\",\"898\",\"static/chunks/898-8eacb415ca3066eb.js\",\"240\",\"static/chunks/240-c90e6fd8389bacb0.js\",\"177\",\"static/chunks/app/layout-1e64cc5932004d18.js\"],\"Providers\"]\n3:I[30775,[\"647\",\"static/chunks/647-dd3ad0b3cd140470.js\",\"898\",\"static/chunks/898-8eacb415ca3066eb.js\",\"240\",\"static/chunks/240-c90e6fd8389bacb0.js\",\"177\",\"static/chunks/app/layout-1e64cc5932004d18.js\"],\"NextUIProvider\"]\n4:I[9766,[],\"\"]\n5:I[98924,[],\"\"]\n6:I[81959,[],\"ClientPageRoot\"]\n7:I[66854,[\"647\",\"static/chunks/647-dd3ad0b3cd140470.js\",\"820\",\"static/chunks/820-bbdd987fcd5a8584.js\",\"430\",\"static/chunks/430-5e863bb1ea7615b9.js\",\"601\",\"static/chunks/601-a3fa428b12c71c71.js\",\"898\",\"static/chunks/898-8eacb415ca3066eb.js\",\"704\",\"static/chunks/704-ddb6eb371b99bd2b.js\",\"696\",\"static/chunks/696-dab0b243012125f5.js\",\"193\",\"static/chunks/193-5da30670cb74c48f.js\",\"974\",\"static/chunks/app/page-ae62540dcf8e4933.js\"],\"default\"]\na:I[24431,[],\"OutletBoundary\"]\nc:I[15278,[],\"AsyncMetadataOutlet\"]\ne:I[24431,[],\"ViewportBoundary\"]\n10:I[24431,[],\"MetadataBoundary\"]\n11:\"$Sreact.suspense\"\n13:I[57150,[],\"\"]\n:HL[\"/_next/static/media/33a864272e2b3e97-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/369e95b172d7d0cb-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/47cbc4e2adbc5db9-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/70d2fd2b9078a5a3-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/a88c13d5f58b71d4-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/c99b890c5ded8d2e-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/da11ba60d7fc0696-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/e4af272ccee01ff0-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/e807dee2426166ad-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_nex"])
+        </script>
+        <script>
+            self.__next_f.push([1, "t/static/media/eaead17c7dbfcd5d-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/fded1358013dc048-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/c04ba446d5e51c47.css\",\"style\"]\n:HL[\"/_next/static/css/6c6a8bc72b46b4e8.css\",\"style\"]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "0:{\"P\":null,\"b\":\"XHJwsUSYIUck0DolxEuNP\",\"p\":\"\",\"c\":[\"\",\"\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/c04ba446d5e51c47.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/6c6a8bc72b46b4e8.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"suppressHydrationWarning\":true,\"children\":[[\"$\",\"head\",null,{\"children\":[\"$\",\"script\",null,{\"type\":\"application/ld+json\",\"dangerouslySetInnerHTML\":{\"__html\":\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Abhishek Singh\\\",\\\"url\\\":\\\"https://abhishekworks.com\\\",\\\"jobTitle\\\":\\\"Full Stack Developer\\\",\\\"worksFor\\\":{\\\"@type\\\":\\\"Organization\\\",\\\"name\\\":\\\"GOMUGOMU STUDIOS\\\"},\\\"sameAs\\\":[\\\"https://github.com/Abhishek2494\\\",\\\"https://x.com/Abhishek_Data_\\\",\\\"https://www.linkedin.com/in/abhishek-singh/\\\"]}\"}}]}],[\"$\",\"body\",null,{\"className\":\"__variable_60bf02 __variable_0bbd17 __variable_153596 __variable_1d1d43 __variable_ef0c4b __variable_c2ce35 __variable_0c2974 __variable_5d3d4e __variable_f98467 dark:bg-[#0f0017] overflow-x-hidden\",\"suppressHydrationWarning\":true,\"children\":[\"$\",\"$L2\",null,{\"children\":[\"$\",\"$L3\",null,{\"children\":[\"$\",\"$L4\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L5\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]}]}]]}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"$L6\",null,{\"Component\":\"$7\",\"searchParams\":{},\"params\":{},\"promises\":[\"$@8\",\"$@9\"]}],null,[\"$\",\"$La\",null,{\"children\":[\"$Lb\",[\"$\",\"$Lc\",null,{\"promise\":\"$@d\"}]]}]]}],{},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[[\"$\",\"$Le\",null,{\"children\":\"$Lf\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]],[\"$\",\"$L10\",null,{\"children\":[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$11\",null,{\"fallback\":null,\"children\":\"$L12\"}]}]}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$13\",[]],\"s\":false,\"S\":true}\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "8:{}\n9:\"$0:f:0:1:2:children:1:props:children:0:props:params\"\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "f:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\nb:null\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "14:T991,"])
+        </script>
+        <script>
+            self.__next_f.push([1, "Abhishek Singh,Abhishek Singh Developer,Abhishek Singh Portfolio,Abhishek Singh Software Engineer,Abhishek Singh Web Developer,Full Stack Developer India,Full Stack Developer Raipur,Software Developer Raipur,Software Engineer India,Web Developer Chhattisgarh,Hire Developer India,Remote Software Developer,Remote Web Developer,Global Web Developer,International Developer,Full Stack Developer,Frontend Developer,Backend Developer,Web Developer,Software Engineer,Digital Product Engineer,Application Developer,Product Engineer,Creative Developer,Web Architect,Professional Developer,Technical Specialist,React Developer,Next.js Developer,Node.js Developer,Express Developer,MongoDB Developer,MERN Developer,JavaScript Developer,TypeScript Developer,REST API Development,AWS Developer,Cloud Developer,SQL Developer,Database Architecture,Responsive UI Development,Web Animation,Three.js Developer,3D Web Developer,Web Application Development,SaaS Development,E-commerce Development,Portfolio Website Development,Corporate Website Development,Landing Page Development,Custom Software Development,Digital Product Development,Enterprise Web Solutions,Business Software Development,Professional Web Services,Web App Performance Optimization,Production-Ready Web Development,Mobile-Responsive Website Development,System Architecture,API Integration Services,High Performance Web Applications,Scalable Software,Clean Code Practices,User Experience Focus,Modern Web Engineering,Interactive User Experiences,Real World Web Projects,Client Ready Software,High Quality Engineering,Pixel Perfect UI,Robust Backend Systems,Modern Web Experiences,Future Ready Development,UI and UX Engineering,Software Portfolio,Developer Portfolio,Modern Developer Portfolio,Technical Portfolio Website,Professional Tech Profile,Showcase of Projects,Hire Web Developer,Hire Software Engineer,Hire Full Stack Developer,Hiring Programmers,Find Web Developer,Web Development Freelancer,SoraXion,SoraXion Studio,SoraXion Agency,Code Astera,AbhishekWorks,Abhishek Works Portfolio,Modern Web Technologies,Interactive Websites,High Conversion Landing Pages,Digital Product UI,Next Gen Web Experiences,Creative Web Solutions,Modern Tech Stack,High Traffic Web Solutions,Scalable Backend Infrastructure,Best Web Developer,Top Software Engineer,Web Development Services,Custom Website Development,Web Design and Development,Application Development Services,Creative Coding,Modern Web Design"])
+        </script>
+        <script>
+            self.__next_f.push([1, "d:{\"metadata\":[[\"$\",\"title\",\"0\",{\"children\":\"Abhishek Singh | Full Stack Developer – Modern Web Engineering \u0026 Digital Products\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"I build high-quality, scalable digital products with a focus on performance, detail, clean engineering, and meaningful user experiences. From modern interfaces to production-ready backend systems, I deliver software that feels polished and built to last.\"}],[\"$\",\"meta\",\"2\",{\"name\":\"keywords\",\"content\":\"$14\"}],[\"$\",\"link\",\"3\",{\"rel\":\"canonical\",\"href\":\"https://abhishekworks.com\"}],[\"$\",\"meta\",\"4\",{\"property\":\"og:title\",\"content\":\"Abhishek Singh – Full Stack Developer | Modern Web Engineering \u0026 Digital Products\"}],[\"$\",\"meta\",\"5\",{\"property\":\"og:description\",\"content\":\"I build production-grade digital experiences with an emphasis on performance, interaction, and long-term reliability. Whether product dashboards, corporate platforms, or high-end interfaces, I push for clean engineering and thoughtful execution.\"}],\"$L15\",\"$L16\",\"$L17\",\"$L18\",\"$L19\",\"$L1a\",\"$L1b\",\"$L1c\",\"$L1d\",\"$L1e\",\"$L1f\",\"$L20\",\"$L21\",\"$L22\",\"$L23\"],\"error\":null,\"digest\":\"$undefined\"}\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "24:I[80622,[],\"IconMark\"]\n15:[\"$\",\"meta\",\"6\",{\"property\":\"og:url\",\"content\":\"https://abhishekworks.com\"}]\n16:[\"$\",\"meta\",\"7\",{\"property\":\"og:image\",\"content\":\"https://abhishekworks.com/home.png\"}]\n17:[\"$\",\"meta\",\"8\",{\"property\":\"og:image:width\",\"content\":\"1200\"}]\n18:[\"$\",\"meta\",\"9\",{\"property\":\"og:image:height\",\"content\":\"630\"}]\n19:[\"$\",\"meta\",\"10\",{\"property\":\"og:image:alt\",\"content\":\"Abhishek Singh Portfolio\"}]\n1a:[\"$\",\"meta\",\"11\",{\"property\":\"og:type\",\"content\":\"website\"}]\n1b:[\"$\",\"meta\",\"12\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}]\n1c:[\"$\",\"meta\",\"13\",{\"name\":\"twitter:site\",\"content\":\"@Abhishek_Data_\"}]\n1d:[\"$\",\"meta\",\"14\",{\"name\":\"twitter:title\",\"content\":\"Abhishek Singh | Full Stack Developer – Building Modern Web Experiences\"}]\n1e:[\"$\",\"meta\",\"15\",{\"name\":\"twitter:description\",\"content\":\"Crafting modern, scalable digital products with a focus on performance, clean engineering, and immersive user experiences.\"}]\n1f:[\"$\",\"meta\",\"16\",{\"name\":\"twitter:image\",\"content\":\"https://abhishekworks.com/AbhishekX.png\"}]\n20:[\"$\",\"link\",\"17\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\",\"type\":\"image/x-icon\",\"sizes\":\"128x128\"}]\n21:[\"$\",\"link\",\"18\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\"}]\n22:[\"$\",\"link\",\"19\",{\"rel\":\"apple-touch-icon\",\"href\":\"/apple-touch-icon.png\"}]\n23:[\"$\",\"$L24\",\"20\",{}]\n12:\"$d:metadata\"\n"])
+        </script>
+        <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"a6c6f49b9ed34b16a3ff635e60602b98","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+    </body>
+</html>
